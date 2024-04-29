@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
-data = pd.read_csv("Mall_Customers.csv")
+data = pd.read_csv("path/to/Mall_Customers.csv")
 # Extracting the features for clustering (Annual Income and Spending Score)
 X = data.iloc[:, [3, 4]].values
 
